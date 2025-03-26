@@ -113,6 +113,12 @@
 
   <dependencyManagement>
     <dependencies>
+    <!-- TEST -->
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-exec-abc</artifactId>
+        <version>100.4.0</version>
+      </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-exec</artifactId>
